@@ -1,0 +1,16 @@
+name: hola-mundo-con-python
+on: [push]
+jobs:
+  hola-mundo-con-python:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: hello world with python
+        run: python hello.py

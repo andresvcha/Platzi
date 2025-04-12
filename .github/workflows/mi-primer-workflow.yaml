@@ -1,5 +1,5 @@
 name: hola-mundo
-on: [push]
+on: pull_request
 jobs:
   hola-mundo:
     runs-on: ubuntu-22.04
