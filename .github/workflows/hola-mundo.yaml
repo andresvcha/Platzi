@@ -13,4 +13,4 @@ jobs:
           python-version: '3.13'
 
       - name: hello world with python
-        run: python hello.py
+        run: python Curso-de-Git-y-GitHub/hello.py
