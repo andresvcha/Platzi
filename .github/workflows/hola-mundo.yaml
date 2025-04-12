@@ -13,4 +13,4 @@ jobs:
           python-version: '3.13'
 
       - name: hello world with python
-        run: python Curso-de-Git-y-GitHub/hello.py
+        run: python /home/runner/work/Platzi/Curso-de-Git-y-GitHub/hello.py
