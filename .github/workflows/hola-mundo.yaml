@@ -11,6 +11,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      
+      - name: List files in workspace
+        run: ls -R 
 
       - name: hello world with python
         run: python Curso-de-GitHub-Actions/hello.py
